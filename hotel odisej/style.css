@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    font-family: PP woodland;
+}
+#page1{
+    height: 100vh;
+    width: 100%;
+     position: relative;
+   
+}
+#page1 nav{
+    position: absolute;
+    padding: 2vw 4vw;
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    justify-content: space-between;
+     z-index: 9;
+     align-items: center;
+}
+#page1 nav h1{
+    display: flex;
+    flex-direction: column;
+    font-size: 3vw;
+    margin-top: 3vw;
+    color: #5b6647;
+    text-align: center;
+    margin-left: 8vw;
+}
+#page1 nav h1 span{
+    text-transform: uppercase;
+    font-size: 1.3vw;
+}
+#page1 img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: -1;
+}
+#page1 nav #buttons{
+    display: flex;
+    gap: 2vw;
+}
+#page1 #buttons button{
+    border: none;
+    padding: .8vw 1.5vw;
+    border-radius: 2vw;
+    font-size: 1.1vw;
+    background-color: #888F71;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s , transform 0.3s, scale 0.3s;
+}
+#page1 #buttons button:nth-child(2):hover{
+    background-color:  #5b6647;
+    scale: 1.05;
+}
+#page1 #buttons button:nth-child(1){
+    color: #6C7656;
+    background-color: white;
+}
+#page1 #buttons button:nth-child(1):hover{
+    background-color: #E3E3C4;
+    scale: 1.05;
+}
+#page1 nav i{
+    font-size: 2.5vw;
+    cursor: pointer;
+}
+#page2{
+    height: 100vh;
+    width: 100%;
+    background-color: #556043;
+    padding: 2vw 3vw;
+    text-align: center;
+}
+#page2 h1{
+    color: #434B34;
+    font-weight: 400;
+    font-size: 4.5vw;
+    line-height: 4.5vw;
+}
+#page2 h1 span{
+    font-weight: 400;
+    font-size: 4.5vw;
+    line-height: 4.5vw;
+}
+#page3{
+    height: 100vh;
+    width: 100%;
+}
